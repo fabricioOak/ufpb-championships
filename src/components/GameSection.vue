@@ -1,0 +1,126 @@
+<template>
+  <section class="py-14 md:py-24 text-stone-800 bg-white overflow-hidden">
+    <div class="container px-20 md:px-8">
+      <div class="grid grid-cols-12 justify-center">
+        <div class="col-span-12 lg:col-span-8 lg:col-start-3 lg:col-end-11 text-center">
+          <h2
+            class="text-[32px] lg:text-[45px] leading-none mb-4 bg-gradient-to-r from-blue-600 via-violet-500 to-green-400 inline-block text-transparent bg-clip-text uppercase font-black"
+          >
+            Entre no jogo e mostre suas habilidades!
+          </h2>
+          <p class="text-lg font-medium opacity-80 lg:px-12 mb-9">
+            Forme sua equipe, desafie os adversários, mostre suas habilidades e alcance o topo.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-12 items-center mt-12 gap-6">
+        <div class="col-span-12">
+          <article>
+            <div class="grid grid-cols-12 items-center gap-6">
+              <div class="col-span-12 lg:col-span-7 lg:order-2">
+                <img
+                  src="../assets/images/hero-image.jpg"
+                  alt=""
+                  class="max-w-full h-auto rounded"
+                />
+              </div>
+              <div class="col-span-12 lg:col-span-5 lg:order-1">
+                <div class="mt-6 lg:mt-0 lg:pl-6">
+                  <h4 class="font-medium text-2xl md:text-[40px] md:leading-[50px] mb-2">
+                    Até onde você consegue chegar? <br />
+                    Descubra o seu limite!
+                  </h4>
+                  <p class="md:text-lg opacity-60 mt-3 mb-6">
+                    No Campeonato de eSports da UFPB 2025, você terá a oportunidade de mostrar suas
+                    habilidades e competir com os melhores jogadores da nossa universidade. Escolha
+                    o seu jogo favorito, forme sua equipe e mostre que você é capaz de ser o
+                    campeão!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-span-12 md:col-span-6 lg:col-span-4 h-full mt-12 card">
+          <article class="flex flex-col shadow-lg rounded-lg overflow-hidden pb-2 h-full">
+            <img src="../assets/images/lol.jpg" alt="" class="h-auto w-full" />
+            <div class="flex flex-col justify-between grow p-3 pb-8 lg:p-6">
+              <div>
+                <h4 class="font-medium text-2xl mb-1">League of Legends</h4>
+                <p class="opacity-80 mb-2">
+                  <span><i class="far fa-clock ml-1"></i> <span>13 Jan, 2025</span></span>
+                </p>
+                <p class="opacity-60 mt-3 mb-6">
+                  Nosso campoenato 5x5 de League of Legends promete muita ação e diversão, com
+                  muitas premiações para os vencedores incluindo patrocínio da Riot.
+                </p>
+              </div>
+              <div>
+                <a
+                  href=""
+                  class="bg-transparent hover:bg-purple-600 border border-purple-600 hover:text-white py-2 px-5 rounded transition"
+                  >Saiba Mais!</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-span-12 md:col-span-6 lg:col-span-4 h-full mt-12 card">
+          <article class="flex flex-col shadow-lg rounded-lg overflow-hidden pb-2 h-full">
+            <img src="../assets/images/tft.jpg" alt="" class="h-auto w-full" />
+            <div class="flex flex-col justify-between grow p-3 pb-8 lg:p-6">
+              <div>
+                <h4 class="font-medium text-2xl mb-1">Team Fight Tactics (TFT)</h4>
+                <p class="opacity-80 mb-2">
+                  <span><i class="far fa-clock ml-1"></i> <span>14 Jan, 2025</span></span>
+                </p>
+                <p class="opacity-60 mt-3 mb-6">
+                  Depois de muitas solicitações, finalmente teremos um campeonato de TFT! Mostre
+                  suas habilidades de estratégia e conquiste o primeiro lugar.
+                </p>
+              </div>
+              <div>
+                <a
+                  href=""
+                  class="bg-transparent hover:bg-purple-600 border border-purple-600 hover:text-white py-2 px-5 rounded transition"
+                  >Saiba Mais!</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-span-12 md:col-span-6 lg:col-span-4 h-full mt-12 card">
+          <article class="flex flex-col shadow-lg rounded-lg overflow-hidden pb-2 h-full">
+            <img src="../assets/images/valorant.jpg" alt="" class="h-auto w-full" />
+            <div class="flex flex-col justify-between grow p-3 pb-8 lg:p-6">
+              <div>
+                <h4 class="font-medium text-2xl mb-1">Valorant</h4>
+                <p class="opacity-80 mb-2">
+                  <span><i class="far fa-clock ml-1"></i> <span>15 Mar, 2025</span></span>
+                </p>
+                <p class="opacity-60 mt-3 mb-6">
+                  Nosso vava também não vai ficar de fora! Com premiações e muita diversão, o
+                  campeonato de Valorant promete ser um dos mais disputados.
+                </p>
+              </div>
+              <div>
+                <a
+                  href=""
+                  class="bg-transparent hover:bg-purple-600 border border-purple-600 hover:text-white py-2 px-5 rounded transition"
+                  >Saiba Mais!</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<style scoped>
+.card {
+  @apply flex flex-col rounded-lg h-full hover:shadow-xl transition duration-300 drop-shadow-lg;
+}
+</style>
