@@ -4,7 +4,7 @@
   >
     <div
       class="absolute top-0 left-0 right-0 bottom-0 -z-[1]"
-      style="background: linear-gradient(130deg, rgba(130, 110, 253, 0.35), rgba(0, 0, 0, 0.831))"
+      style="background: linear-gradient(130deg, rgba(255, 185, 25, 0.35), rgba(0, 0, 0, 0.831))"
     ></div>
     <div class="container px-4">
       <div class="grid grid-cols-12">
@@ -19,7 +19,7 @@
           </p>
           <div class="md:mr-40 lg:mr-72">
             <button
-              class="py-4 px-8 text-bold bg-white text-black font-bold hover:bg-opacity-80 rounded-full w-full"
+              class="py-4 px-8 text-bold bg-yellow-600 ring-2 ring-amber-500 hover:-translate-y-1 transition text-slate-50 font-bold hover:bg-opacity-80 rounded-full w-full"
             >
               Saiba Mais Sobre o Evento
             </button>

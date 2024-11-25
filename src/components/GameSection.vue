@@ -4,7 +4,7 @@
       <div class="grid grid-cols-12 justify-center">
         <div class="col-span-12 lg:col-span-8 lg:col-start-3 lg:col-end-11 text-center">
           <h2
-            class="text-[32px] lg:text-[45px] leading-none mb-4 bg-gradient-to-r from-blue-600 via-violet-500 to-green-400 inline-block text-transparent bg-clip-text uppercase font-black"
+            class="text-[32px] lg:text-[45px] leading-none mb-4 bg-gradient-to-r from-yellow-400 via-red-600 to-pink-400 inline-block text-transparent bg-clip-text uppercase font-black"
           >
             Entre no jogo e mostre suas habilidades!
           </h2>
@@ -47,7 +47,7 @@
             <img src="../assets/images/lol.jpg" alt="" class="h-auto w-full" />
             <div class="flex flex-col justify-between grow p-3 pb-8 lg:p-6">
               <div>
-                <h4 class="font-medium text-2xl mb-1">League of Legends</h4>
+                <h4 class="font-medium text-2xl mb-1 text-blue-700">League of Legends</h4>
                 <p class="opacity-80 mb-2">
                   <span><i class="far fa-clock ml-1"></i> <span>13 Jan, 2025</span></span>
                 </p>
@@ -59,7 +59,7 @@
               <div>
                 <a
                   href=""
-                  class="bg-transparent hover:bg-purple-600 border border-purple-600 hover:text-white py-2 px-5 rounded transition"
+                  class="bg-transparent hover:bg-blue-600 border border-blue-600 hover:text-white py-2 px-5 rounded transition"
                   >Saiba Mais!</a
                 >
               </div>
@@ -71,7 +71,7 @@
             <img src="../assets/images/tft.jpg" alt="" class="h-auto w-full" />
             <div class="flex flex-col justify-between grow p-3 pb-8 lg:p-6">
               <div>
-                <h4 class="font-medium text-2xl mb-1">Team Fight Tactics (TFT)</h4>
+                <h4 class="font-medium text-2xl mb-1 text-orange-500">Team Fight Tactics (TFT)</h4>
                 <p class="opacity-80 mb-2">
                   <span><i class="far fa-clock ml-1"></i> <span>14 Jan, 2025</span></span>
                 </p>
@@ -83,7 +83,7 @@
               <div>
                 <a
                   href=""
-                  class="bg-transparent hover:bg-purple-600 border border-purple-600 hover:text-white py-2 px-5 rounded transition"
+                  class="bg-transparent hover:bg-amber-600 border border-amber-600 hover:text-white py-2 px-5 rounded transition"
                   >Saiba Mais!</a
                 >
               </div>
@@ -95,7 +95,7 @@
             <img src="../assets/images/valorant.jpg" alt="" class="h-auto w-full" />
             <div class="flex flex-col justify-between grow p-3 pb-8 lg:p-6">
               <div>
-                <h4 class="font-medium text-2xl mb-1">Valorant</h4>
+                <h4 class="font-medium text-2xl mb-1 text-red-500">Valorant</h4>
                 <p class="opacity-80 mb-2">
                   <span><i class="far fa-clock ml-1"></i> <span>15 Mar, 2025</span></span>
                 </p>
@@ -107,7 +107,7 @@
               <div>
                 <a
                   href=""
-                  class="bg-transparent hover:bg-purple-600 border border-purple-600 hover:text-white py-2 px-5 rounded transition"
+                  class="bg-transparent hover:bg-red-600 border border-red-600 hover:text-white py-2 px-5 rounded transition"
                   >Saiba Mais!</a
                 >
               </div>

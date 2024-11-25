@@ -30,19 +30,16 @@
               <a class="px-4 opacity-100" href="#">Home</a>
             </li>
             <li>
-              <a class="px-4 opacity-50 hover:opacity-100" href="#">Services</a>
+              <a class="px-4 opacity-50 hover:opacity-100" href="#">Jogos</a>
             </li>
             <li>
-              <a class="px-4 opacity-50 hover:opacity-100" href="#">Why us?</a>
+              <a class="px-4 opacity-50 hover:opacity-100" href="#">Como funciona?</a>
             </li>
             <li>
-              <a class="px-4 opacity-50 hover:opacity-100" href="#">How It Works</a>
+              <a class="px-4 opacity-50 hover:opacity-100" href="#">Dia do Evento</a>
             </li>
             <li>
-              <a class="px-4 opacity-50 hover:opacity-100" href="#">Features</a>
-            </li>
-            <li>
-              <a class="px-4 opacity-50 hover:opacity-100" href="#">Testimonials</a>
+              <a class="px-4 opacity-50 hover:opacity-100" href="#">FAQ</a>
             </li>
           </ul>
         </div>

@@ -4,7 +4,7 @@
       <h3
         class="mt-1 text-2xl font-bold text-left text-gray-800 sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center"
       >
-        FAQs e Guias sobre o Campeonato
+        FAQ e Guias sobre os Campeonatos
       </h3>
       <div
         class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3"
@@ -12,8 +12,8 @@
         data-rounded-max="rounded-full"
       >
         <h3
-          class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl"
-          data-primary="purple-500"
+          class="text-lg font-bold text-yellow-500 sm:text-xl md:text-2xl"
+          data-primary="yellow-500"
         >
           Pergunta 1?
         </h3>
@@ -27,8 +27,8 @@
         data-rounded-max="rounded-full"
       >
         <h3
-          class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl"
-          data-primary="purple-500"
+          class="text-lg font-bold text-yellow-500 sm:text-xl md:text-2xl"
+          data-primary="yellow-500"
         >
           Pergunta 2?
         </h3>
@@ -43,8 +43,8 @@
         data-rounded-max="rounded-full"
       >
         <h3
-          class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl"
-          data-primary="purple-500"
+          class="text-lg font-bold text-yellow-500 sm:text-xl md:text-2xl"
+          data-primary="yellow-500"
         >
           Pergunta 3?
         </h3>
@@ -59,8 +59,8 @@
         data-rounded-max="rounded-full"
       >
         <h3
-          class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl"
-          data-primary="purple-500"
+          class="text-lg font-bold text-yellow-500 sm:text-xl md:text-2xl"
+          data-primary="yellow-500"
         >
           Pergunta 4?
         </h3>
