@@ -13,11 +13,11 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "oh-vue-icons": "^1.0.0-rc3",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
+    "@iconify/vue": "^4.2.0",
     "@tsconfig/node22": "^22.0.0",
     "@types/node": "^22.9.0",
     "@vitejs/plugin-vue": "^5.1.4",
