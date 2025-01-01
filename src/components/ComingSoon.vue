@@ -13,7 +13,7 @@
             <p class="text-lg opacity-80 ml-2 flex">
               <em>Vocês podem acompanhar o evento ao vivo na <em>Twitch</em></em>
               <a class="ml-2" target="_blank" href="http:////www.twitch.tv/gamersufpb">
-                <v-icon class="h-8 w-8 text-purple-500" name="co-twitch" />
+                <Icon icon="simple-icons:twitch" class="h-8 w-8 text-purple-500" />
               </a>
             </p>
 
@@ -61,58 +61,48 @@
   </section>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { Icon } from '@iconify/vue'
 
-export default {
-  setup() {
-    const days = ref('00')
-    const hours = ref('00')
-    const minutes = ref('00')
-    const seconds = ref('00')
-    const targetDate = new Date('2025-01-10T00:00:00')
-    let timer: number
+const days = ref('00')
+const hours = ref('00')
+const minutes = ref('00')
+const seconds = ref('00')
+const targetDate = new Date('2025-01-11T00:00:00')
+let timer: number
 
-    const updateCountdown = () => {
-      const now = new Date()
-      const distance = targetDate.getTime() - now.getTime()
+const updateCountdown = () => {
+  const now = new Date()
+  const distance = targetDate.getTime() - now.getTime()
 
-      if (distance <= 0) {
-        clearInterval(timer)
-        days.value = '00'
-        hours.value = '00'
-        minutes.value = '00'
-        seconds.value = '00'
-        return
-      }
+  if (distance <= 0) {
+    clearInterval(timer)
+    days.value = '00'
+    hours.value = '00'
+    minutes.value = '00'
+    seconds.value = '00'
+    return
+  }
 
-      days.value = String(Math.floor(distance / (1000 * 60 * 60 * 24))).padStart(2, '0')
-      hours.value = String(Math.floor((distance / (1000 * 60 * 60)) % 24)).padStart(2, '0')
-      minutes.value = String(Math.floor((distance / (1000 * 60)) % 60)).padStart(2, '0')
-      seconds.value = String(Math.floor((distance / 1000) % 60)).padStart(2, '0')
-    }
-
-    const startCountdown = () => {
-      updateCountdown()
-      timer = setInterval(updateCountdown, 1000)
-    }
-
-    onMounted(() => {
-      startCountdown()
-    })
-
-    onBeforeUnmount(() => {
-      clearInterval(timer)
-    })
-
-    return {
-      days,
-      hours,
-      minutes,
-      seconds,
-    }
-  },
+  days.value = String(Math.floor(distance / (1000 * 60 * 60 * 24))).padStart(2, '0')
+  hours.value = String(Math.floor((distance / (1000 * 60 * 60)) % 24)).padStart(2, '0')
+  minutes.value = String(Math.floor((distance / (1000 * 60)) % 60)).padStart(2, '0')
+  seconds.value = String(Math.floor((distance / 1000) % 60)).padStart(2, '0')
 }
+
+const startCountdown = () => {
+  updateCountdown()
+  timer = setInterval(updateCountdown, 1000)
+}
+
+onMounted(() => {
+  startCountdown()
+})
+
+onBeforeUnmount(() => {
+  clearInterval(timer)
+})
 </script>
 
 <style scoped>

@@ -10,8 +10,8 @@ import FooterComponent from '@/components/FooterComponent.vue'
 <template>
   <main id="main">
     <HeroSection />
-    <GameSection />
     <HowToParticipate />
+    <GameSection />
     <ComingSoon />
     <FAQSection />
     <FooterComponent />
