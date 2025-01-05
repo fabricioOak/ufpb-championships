@@ -8,7 +8,7 @@
           >
             Entre no jogo e mostre suas habilidades!
           </h2>
-          <p class="text-lg font-medium opacity-80 lg:px-12 mb-9">
+          <p class="text-lg font-medium opacity-80 lg:px-12">
             Forme sua equipe, desafie os adversários, mostre suas habilidades e alcance o topo.
           </p>
         </div>
@@ -139,7 +139,7 @@
                 </p>
                 <p class="opacity-60 mt-3 mb-6">
                   O lolzinho de celular também é presença confirmada! Com premiações, diversão e
-                  muita ação, o campeonato de Wild Rift promete ser um dos mais disputados.
+                  muita ação, esse promete muita emoção.
                 </p>
               </div>
               <div>
