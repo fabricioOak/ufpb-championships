@@ -78,7 +78,7 @@
                 <p class="opacity-80 mb-2">
                   <span
                     ><i class="far fa-clock ml-1"></i>
-                    <span class="font-medium">Entre 18 e 19 Jan, 2025</span></span
+                    <span class="font-medium">Entre 25 e 26 Jan, 2025</span></span
                   >
                 </p>
                 <p class="opacity-60 mt-3 mb-6">
